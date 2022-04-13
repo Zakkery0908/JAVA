@@ -26,7 +26,7 @@ while(队列不为空){
 
 '''
 ### 二叉树的最小高度
-'''
+'''java
 
 public int minDepth(TreeNode root) {
         //声明并初始化所有变量
@@ -53,8 +53,7 @@ public int minDepth(TreeNode root) {
         }
         //注意还要return
         return step;
-    }
-
+}
 '''
 > 1. 注意考虑特殊情况 
 > 2. 树的root本身深度就是1
