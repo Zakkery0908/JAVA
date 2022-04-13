@@ -24,8 +24,7 @@ while(队列不为空){
 }
 '''
 ### 二叉树的最小高度
-'''
- public int minDepth(TreeNode root) {
+'''public int minDepth(TreeNode root) {
         //声明并初始化所有变量
         Queue<TreeNode> p = new LinkedList<TreeNode>();
           //注意特殊情况
