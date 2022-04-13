@@ -5,6 +5,7 @@
 **BFS通常用队列数据结构实现**
 **BFS的常见情景：** 在一幅图中找到从起点到终点的最近距离,比如走迷宫的最短距离
 '''
+
 声明并初始化队列
 声明并初始化访问list
 声明并初始化记录的步数
@@ -22,9 +23,12 @@ while(队列不为空){
    }
    step++
 }
+
 '''
 ### 二叉树的最小高度
-'''public int minDepth(TreeNode root) {
+'''
+
+public int minDepth(TreeNode root) {
         //声明并初始化所有变量
         Queue<TreeNode> p = new LinkedList<TreeNode>();
           //注意特殊情况
@@ -50,6 +54,7 @@ while(队列不为空){
         //注意还要return
         return step;
     }
+
 '''
 > 1. 注意考虑特殊情况 
 > 2. 树的root本身深度就是1
